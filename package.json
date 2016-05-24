@@ -5,6 +5,10 @@
     "presets": [
       "es2015",
       "react"
+    ],
+    "plugins": [
+      "transform-react-constant-elements",
+      "transform-react-inline-elements"
     ]
   },
   "description": "Comparing Vue and React when rendering frequent, heavy data",
@@ -18,6 +22,8 @@
   "dependencies": {
     "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
+    "babel-plugin-transform-react-constant-elements": "6.8.0",
+    "babel-plugin-transform-react-inline-elements": "6.8.0",
     "babel-preset-react": "^6.5.0",
     "faker": "^3.1.0",
     "immutable": "^3.8.1",
