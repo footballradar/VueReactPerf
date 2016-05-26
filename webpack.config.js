@@ -4,6 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         "react": "./src/react.js",
+        "react.withoutImmutable": "./src/react.withoutImmutable.js",
         "vue": "./src/vue.js"
     },
     output: {
