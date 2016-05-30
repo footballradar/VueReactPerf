@@ -4,7 +4,8 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         "react": "./src/react.js",
-        "vue": "./src/vue.js"
+        "react-lite": "./src/react-lite.js",
+        "vue": "./src/vue.js",
     },
     output: {
         filename: "[name].js",
