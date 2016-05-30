@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --content-base dist/"
+    "dev": "webpack-dev-server --content-base dist/ --port 8005"
   },
   "author": "",
   "license": "MIT",
@@ -33,6 +33,7 @@
     "react": "^15.0.2",
     "react-addons-perf": "^15.1.0",
     "react-dom": "^15.0.2",
+    "react-lite": "^0.15.14",
     "rx": "^4.1.0",
     "vue": "^1.0.24",
     "vue-rx": "^1.0.1",

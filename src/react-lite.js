@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from "react-lite";
+import ReactDOM from "react-lite";
 import Immutable from 'immutable';
 //import Perf from "react-addons-perf";
 //window.ReactPerf = Perf;
