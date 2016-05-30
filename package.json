@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --content-base dist/ --port 8005"
+    "dev": "webpack-dev-server --content-base dist/"
   },
   "author": "",
   "license": "MIT",
