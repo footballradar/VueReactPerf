@@ -1,1 +1,4 @@
 /node_modules/
+/dist/react.js
+/dist/simulacra.js
+/dist/vue.js

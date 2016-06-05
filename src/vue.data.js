@@ -1,7 +1,7 @@
 import faker from "faker";
 import Rx from "rx";
 
-const EVENT_INTERVAL = 1000;
+const EVENT_INTERVAL = 100;
 
 export function createStore(noOfGames) {
 

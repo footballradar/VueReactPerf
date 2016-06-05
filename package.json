@@ -1,5 +1,5 @@
 {
-  "name": "vue-react-perf",
+  "name": "fixed-table-perf",
   "version": "1.1.0",
   "babel": {
     "presets": [
@@ -16,7 +16,7 @@
       }
     }
   },
-  "description": "Comparing Vue and React when rendering frequent, heavy data",
+  "description": "Comparing Vue and React and Simulacra when rendering frequent, heavy data",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -25,15 +25,16 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "babel-core": "^6.9.0",
+    "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
     "faker": "^3.1.0",
     "immutable": "^3.8.1",
-    "react": "^15.0.2",
+    "react": "^15.1.0",
     "react-addons-perf": "^15.1.0",
-    "react-dom": "^15.0.2",
+    "react-dom": "^15.1.0",
     "rx": "^4.1.0",
+    "simulacra": "^1.0.5",
     "vue": "^1.0.24",
     "vue-rx": "^1.0.1",
     "webpack": "^1.13.1",
