@@ -2,7 +2,7 @@ import faker from "faker";
 import Rx from "rx";
 import Immutable from "immutable";
 
-const EVENT_INTERVAL = 1000;
+const EVENT_INTERVAL = 100;
 
 export function createGames(noOfGames = 5) {
     const games = Immutable.Range(0, noOfGames)
@@ -30,7 +30,7 @@ function updateGame(game) {
 
     game = maybeUpdate(5, game, () => game.updateIn(["score", "home"], (s) => s + 1));
     game = maybeUpdate(5, game, () => game.updateIn(["score", "away"], (s) => s + 1));
-    
+
     game = maybeUpdate(8, game, () => game.updateIn(["cards", "yellow"], (s) => s + 1));
     game = maybeUpdate(2, game, () => game.updateIn(["cards", "red"], (s) => s + 1));
 
@@ -56,8 +56,8 @@ function generateFakeGame() {
             away: 0
         },
         teams: {
-          home: faker.address.city(),  
-          away: faker.address.city()  
+          home: faker.address.city(),
+          away: faker.address.city()
         },
         outrageousTackles: 0,
         cards: {

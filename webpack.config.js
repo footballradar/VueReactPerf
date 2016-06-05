@@ -4,6 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         "react": "./src/react.js",
+        "simulacra": "./src/simulacra.js",
         "vue": "./src/vue.js"
     },
     output: {
